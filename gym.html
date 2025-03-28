@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="exercise-name">Workout Tracker</h1>
+        <div id="video-container">
+            <video id="exercise-video" controls autoplay loop muted>
+                <source id="video-source" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="details">
+            <p>Set: <span id="set-count">-</span></p>
+            <p>Reps: <span id="rep-count">-</span></p>
+        </div>
+        <button id="start-btn">Start Workout</button>
+        <button id="next-btn" style="display: none;">Next Exercise</button>
+        <div class="timer">
+            <p>⏱ Exercise Time: <span id="exercise-timer">0</span> sec</p>
+            <p>⏳ Total Time: <span id="total-timer">0</span> sec</p>
+        </div>
+    </div>
+    <script src="gym.js"></script>
+</body>
+</html>

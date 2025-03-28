@@ -1,19 +1,19 @@
 const exercises = [
-    { name: "Crunches", sets: 3, reps: 20, video: "C:/Users/subig/Downloads/crunches.mp4" },
-    { name: "Leg Raises", sets: 3, reps: 15, video: "C:/Users/subig/Downloads/legraise.mp4" },
-    { name: "Bicycle Crunches", sets: 3, reps: 20, video: "C:/Users/subig/Downloads/bicycle.mp4" },
-    { name: "Russian Twists", sets: 3, reps: 30, video: "C:/Users/subig/Downloads/russian.mp4" },
-    { name: "Dumbbell Bicep Curls", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/bicep.mp4" },
-    { name: "Hammer Curls", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/hammer.mp4" },
-    { name: "Zottman Curls", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/zottman.mp4" },
-    { name: "Dumbbell Shoulder Press", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/shoulder.mp4" },
-    { name: "Lateral Raises", sets: 3, reps: 15, video: "C:/Users/subig/Downloads/latraise.mp4" },
-    { name: "Front Raises", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/frontraise.mp4" },
-    { name: "Dumbbell Floor Press", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/press.mp4" },
-    { name: "Dumbbell Chest Fly", sets: 3, reps: 12, video: "C:/Users/subig/Downloads/flychest.mp4.mp4" },
-    { name: "Dumbbell Wrist Curls", sets: 3, reps: 15, video: "C:/Users/subig/Downloads/wrist.mp4.mp4" },
-    { name: "Reverse Wrist Curls", sets: 3, reps: 15, video: "C:/Users/subig/Downloads/reverse.mp4.mp4" },
-    { name: "Dumbbell Holds", sets: 3, reps: 30, video: "C:/Users/subig/Downloads/hold.mp4" }
+    { name: "Crunches", sets: 3, reps: 20, video: "crunches.mp4" },
+    { name: "Leg Raises", sets: 3, reps: 15, video: "legraise.mp4" },
+    { name: "Bicycle Crunches", sets: 3, reps: 20, video: "bicycle.mp4" },
+    { name: "Russian Twists", sets: 3, reps: 30, video: "russian.mp4" },
+    { name: "Dumbbell Bicep Curls", sets: 3, reps: 12, video: "bicep.mp4" },
+    { name: "Hammer Curls", sets: 3, reps: 12, video: "hammer.mp4" },
+    { name: "Zottman Curls", sets: 3, reps: 12, video: "zottman.mp4" },
+    { name: "Dumbbell Shoulder Press", sets: 3, reps: 12, video: "shoulder.mp4" },
+    { name: "Lateral Raises", sets: 3, reps: 15, video: "latraise.mp4" },
+    { name: "Front Raises", sets: 3, reps: 12, video: "frontraise.mp4" },
+    { name: "Dumbbell Floor Press", sets: 3, reps: 12, video: "press.mp4" },
+    { name: "Dumbbell Chest Fly", sets: 3, reps: 12, video: "flychest.mp4.mp4" },
+    { name: "Dumbbell Wrist Curls", sets: 3, reps: 15, video: "wrist.mp4.mp4" },
+    { name: "Reverse Wrist Curls", sets: 3, reps: 15, video: "reverse.mp4.mp4" },
+    { name: "Dumbbell Holds", sets: 3, reps: 30, video: "hold.mp4" }
 ];
 
 let currentExercise = -1;

@@ -21,19 +21,19 @@ let exerciseTime = 0;
 let totalTime = 0;
 let timerInterval;
 
-// Function to update the workout display
+
 function updateExercise() {
     clearInterval(timerInterval);
     exerciseTime = 0;
     
     if (currentExercise < exercises.length) {
-        let ex = exercises[currentExercise]; // Ensure 'ex' is used here
+        let ex = exercises[currentExercise]; 
         document.getElementById("exercise-name").textContent = ex.name;
         document.getElementById("set-count").textContent = ex.sets;
         document.getElementById("rep-count").textContent = ex.reps;
-        document.getElementById("exercise-video").src = ex.video; // Set the video source here
+        document.getElementById("exercise-video").src = ex.video; 
 
-        // Update the video element
+    
         const videoElement = document.getElementById("exercise-video");
         videoElement.load();
 
@@ -53,7 +53,7 @@ function updateExercise() {
     }
 }
 
-// Start workout
+
 document.getElementById("start-btn").addEventListener("click", () => {
     document.getElementById("start-btn").style.display = "none";
     document.getElementById("next-btn").style.display = "inline-block";
@@ -61,7 +61,7 @@ document.getElementById("start-btn").addEventListener("click", () => {
     updateExercise();
 });
 
-// Next exercise
+
 document.getElementById("next-btn").addEventListener("click", () => {
     currentExercise++;
     updateExercise();
